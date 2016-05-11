@@ -2,7 +2,7 @@
 
 This setup involves using the Babel-cli, Babel [presets/plugins](http://babeljs.io/docs/plugins/), and npm scripts to transform JSX/ES 2015 to ES5 code during development.
 
-We'll create this setup in seven steps.
+We'll create this setup in seven steps (or clone/download this code and skip to the last step)..
 
 ### Step 1: Verify Node.js and npm then install global packages
 
