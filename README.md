@@ -37,7 +37,7 @@ Open the `package.json` file and place the following empty JSON object inside of
 Open a command prompt from the root of the directory you created in step 2. Then run the following npm commands
 
 ```
-> npm install babel-cli babel-preset-es2015 babel-preset-react browser-sync --save-dev
+> npm install babel-cli babel-preset-es2015 babel-preset-react babel-preset-stage-0 browser-sync --save-dev
 ```
 
 and
@@ -57,6 +57,7 @@ Running these two commands will install the necessary npm packages for this setu
 │   ├── babel-cli
 │   ├── babel-preset-es2015
 │   ├── babel-preset-react
+│   ├── babel-preset-stage-0
 │   ├── browser-sync
 │   ├── react
 │   └── react-dom
@@ -73,6 +74,7 @@ Open the `package.json` file which should look something like this:
     "babel-cli": "^6.8.0",
     "babel-preset-es2015": "^6.6.0",
     "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
     "browser-sync": "^2.12.5"
   },
   "dependencies": {
@@ -101,6 +103,7 @@ Add the following Babel and scripts configurations to the `package.json` file.
     "babel-cli": "^6.8.0",
     "babel-preset-es2015": "^6.6.0",
     "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
     "browser-sync": "^2.12.5"
   },
   "dependencies": {
